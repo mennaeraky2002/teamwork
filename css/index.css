@@ -80,7 +80,9 @@ a:hover{
     text-align: center;
 padding-bottom: 30px;
 /* font-size: 32px;
+
 font-weight: bold; */
+
 }
 .title h2{
     text-align: center;
@@ -88,6 +90,7 @@ font-weight: bold; */
      font-size: 32px;
     font-weight: bold; 
     color: #222222;
+    font-family: "Raleway", sans-serif;
 }
 .title p{
     color: #495057;
@@ -302,7 +305,7 @@ margin: 20px auto;
     padding-bottom: 30px;
 text-align: center;
 background-color: white;
-
+font-family: "Raleway", sans-serif;
 }
 .team .member .text h4{
 font-weight: 700;
@@ -320,4 +323,149 @@ font-weight: 700;
     padding-bottom: 96px;
     padding-top: 86px;
     background-color: #f7fbfe;
+  
 }
+
+
+/* about us */ 
+.about{
+    color:  #444444;
+    margin-top: 70px;
+}
+
+
+.about .row .col-lg-6{
+    text-align: left;
+}
+.about .row .l ul{
+    list-style: none;
+    padding: 0; 
+}
+.about .row .l ul li{
+    padding-bottom: 10px;
+}
+.about p{
+  line-height: 25px;
+}
+.about a{
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid #3498db;
+    color:#3498db ;
+    padding: 13px 35px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
+.about a:hover{
+    background-color: #3498db;
+    color: #eeeeee;
+}
+.about .btn{
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+
+
+/* more service */
+  
+
+
+.more-s .c1{
+    background-image: url("../img/more-services-1.jpg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.more-s .c2{
+    background-image: url("../img/more-services-2.jpg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.more-s .c3{
+    background-image: url("../img/more-services-3.jpg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.more-s .c4{
+    background-image: url("../img/more-services-4.jpg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.more-s{
+    margin-top: 70px;
+    color: #5e5e5e;
+}
+.more-s a{
+    color: #5e5e5e;
+    text-decoration: none;
+}
+.more-s i{
+    color: #5e5e5e;
+}
+.more-s .read-more{
+    margin-right: 348px;
+    margin-top: -9px;
+}
+.more-s .row{
+    display: flex;
+/* width: 100%; */
+}
+.more-s .row .col-lg-6{
+    display: flex;
+    /* width: 50%; */
+    width: 540px;
+    padding-bottom: 24px;
+    height: 337px;
+    padding-left: 12px;
+    border-radius: 0px;
+}
+.more-s .back{
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.9);
+    /* padding: 15px 30px; */
+    margin-top: 131px;
+    padding-bottom: 13px;
+    border-radius: 7px;
+}
+.more-s .back h5{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 7px;
+    padding-top: 16px;
+}
+.more-s .back p{
+    padding: 5px 20px;
+    color: #5e5e5e;
+}
+.more-s .card:hover .back{
+    background-color:#3498db;
+    color: #eeeeee;
+}
+.more-s .card:hover p , a{
+    color: #eeeeee;
+}
+.more-s .card:hover a{
+      color: #eeeeee;
+    }
+    .more-s .card:hover i{
+        color: #eeeeee;
+      }
+    .more-s .card  a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    }
